@@ -1,3 +1,2 @@
 #! /bin/bash 
-passwd=$(cat /etc/passwd)
-echo $passwd
+cat -A /etc/passwd

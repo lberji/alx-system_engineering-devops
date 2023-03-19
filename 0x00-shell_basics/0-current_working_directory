@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# Absolute path to this script.
-
-path=$(readlink -f $0)
-
-# Absolute path this script is in
-
-SCRIPTPATH=`dirname $path`
-echo '----------------------------------------------------'
-echo 'the absolute path to this script is : '
-echo $SCRIPTPATH
-echo '----------------------------------------------------'
+pwd
